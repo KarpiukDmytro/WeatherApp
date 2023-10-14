@@ -1,0 +1,132 @@
+/* Main stylesheets */
+
+/*.root {
+    -fx-background-image: url("@/../images/City_bg2.jpg");
+}*/
+
+#mainScreen {
+    prefHeight: 800px;
+    prefWidth: 360px;
+    -fx-background-image: url("@/../../images/City_bg2.jpg");
+    -fx-background-repeat: none;
+    -fx-background-position: center center;
+    -fx-background-size: cover;
+    -fx-background-attachment: fixed;
+}
+
+.bgImage {
+    -fx-scale-x: 1;
+    -fx-scale-y: 1;
+}
+
+.text {
+    -fx-font-family: Roboto;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-font-alignment:center;
+}
+
+/* Top blocks */
+#cityText {
+    -fx-font-size:24px;
+}
+
+#mainTemperature {
+    -fx-font-size: 50px;
+    -fx-text-alignment: center;
+}
+
+#mainWeather {
+    -fx-font-size: 24px;
+    -fx-text-alignment: center;
+}
+
+#selectCity {
+    -fx-background-color: rgba(255,255,255,0.1);
+    -fx-font-size:17px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-prompt-text-fill: #ffffff;
+    -fx-font-color: #ffffff;
+    -fx-background-radius: 2px;
+    -fx-border-width: 0 0 1 0;
+    -fx-border-color: #ffffff;
+}
+
+/* Forecast for 24 hours & 5 days */
+.forecastBG {
+    -fx-background-color: rgba(255,255,255,0.1);
+    -fx-background-radius: 5;
+}
+
+#forecastForDay{
+
+}
+
+.forecastTitle {
+    -fx-font-size:16px;
+}
+
+.forecastText {
+    -fx-font-size:14px;
+}
+
+#forecastScrollPane {
+    -fx-background-color: transparent;
+    -fx-background: transparent;
+}
+
+#forecastScrollPane .scroll-bar:horizontal .track {
+    -fx-background-color: rgba(255,255,255,0.25); /* Change to your desired color */
+}
+
+.scroll-bar
+{
+  -fx-background-color: transparent;
+}
+
+.scroll-bar .track
+{
+  -fx-stroke-width: 1;
+  -fx-stroke: -c-dark-glass;
+  -fx-arc-width: 8px;
+  -fx-arc-height: 8px;
+  -fx-fill: transparent;
+}
+
+.scroll-bar .thumb
+{
+  -fx-fill: -c-glass;
+  -fx-arc-width: 8px;
+  -fx-arc-height: 8px;
+}
+
+.list-view,
+.scroll-pane,
+.scroll-pane > .viewport
+{
+  -fx-background-color: transparent;
+}
+
+.hourWeatherText{
+    -fx-font-size:20px;
+}
+
+.dayWeatherTime{
+    -fx-font-size:15px;
+}
+
+/* Forecast for other information */
+.windText {
+    -fx-font-weight:normal;
+}
+
+.otherInfoText{
+    -fx-font-weight:normal;
+}
+
+
+
+
+
+
