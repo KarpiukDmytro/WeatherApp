@@ -1,0 +1,56 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="WeatherApp:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/WeatherApp_jar</output-path>
+    <root id="archive" name="WeatherApp.jar">
+      <element id="module-output" name="WeatherApp" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/main/resources/com/example/weatherapp/json/json-20190722.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/20.0.1/javafx-controls-20.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/20.0.1/javafx-controls-20.0.1-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/controlsfx/controlsfx/11.1.2/controlsfx-11.1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.15.1/jackson-databind-2.15.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/20.0.1/javafx-graphics-20.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.15.1/jackson-core-2.15.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/20.0.1/javafx-fxml-20.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/junit/junit/4.10/junit-4.10.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/kordamp/bootstrapfx/bootstrapfx-core/0.4.0/bootstrapfx-core-0.4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.15.1/jackson-annotations-2.15.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/20.0.1/javafx-graphics-20.0.1-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/20.0.1/javafx-base-20.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.jar" path-in-jar="/" />
+      <element id="library" level="project" name="openjfx-21_windows-x64_bin-sdk" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/openjfx/javafx-base/20.0.1/javafx-base-20.0.1-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/dlsc/formsfx/formsfx-core/11.6.0/formsfx-core-11.6.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/Java/Setup/openjfx-20.0.1_windows-x64_bin-sdk.zip" path-in-jar="/" />
+      <element id="library" level="project" name="openjfx-20.0.1_windows-x64_bin-sdk" />
+      <element id="library" level="project" name="json" />
+      <element id="library" level="project" name="javafx21" />
+      <element id="file-copy" path="$PROJECT_DIR$/../openjfx-21_windows-x64_bin-sdk/javafx-sdk-21/lib/javafx-swt.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../openjfx-21_windows-x64_bin-sdk/javafx-sdk-21/lib/javafx.web.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../openjfx-21_windows-x64_bin-sdk/javafx-sdk-21/lib/javafx.base.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../openjfx-21_windows-x64_bin-sdk/javafx-sdk-21/lib/javafx.fxml.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../openjfx-21_windows-x64_bin-sdk/javafx-sdk-21/lib/javafx.media.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../openjfx-21_windows-x64_bin-sdk/javafx-sdk-21/lib/javafx.swing.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../openjfx-21_windows-x64_bin-sdk/javafx-sdk-21/lib/javafx.controls.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/../openjfx-21_windows-x64_bin-sdk/javafx-sdk-21/lib/javafx.graphics.jar" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:20.0.1" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-graphics:win:20.0.1" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:20.0.1" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-base:win:20.0.1" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:20.0.1" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-controls:win:20.0.1" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:20.0.1" />
+      <element id="library" level="project" name="Maven: org.openjfx:javafx-fxml:win:20.0.1" />
+      <element id="library" level="project" name="Maven: org.controlsfx:controlsfx:11.1.2" />
+      <element id="library" level="project" name="Maven: com.dlsc.formsfx:formsfx-core:11.6.0" />
+      <element id="library" level="project" name="Maven: org.kordamp.bootstrapfx:bootstrapfx-core:0.4.0" />
+      <element id="library" level="project" name="Maven: com.googlecode.json-simple:json-simple:1.1.1" />
+      <element id="library" level="project" name="Maven: junit:junit:4.10" />
+      <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.1" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.15.1" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.15.1" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.15.1" />
+      <element id="library" level="project" name="Maven: org.json:json:20231013" />
+    </root>
+  </artifact>
+</component>

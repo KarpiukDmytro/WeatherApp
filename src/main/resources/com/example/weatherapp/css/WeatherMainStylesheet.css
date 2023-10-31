@@ -7,7 +7,10 @@
 #mainScreen {
     prefHeight: 800px;
     prefWidth: 360px;
-    -fx-background-image: url("@/../../images/City_bg2.jpg");
+    /*-fx-background-color: rgb(44,61,50);*/
+    /*-fx-background-color: linear-gradient(to bottom right, rgba(38,35,94,1) 0%, rgba(77,143,75,1) 35%, rgba(127,157,54,1) 50%, rgba(199,94,53,1) 78%, rgba(0,142,255,1) 100%);*/
+    /*(150deg, rgba(2,0,36,1) 0%, rgba(77,143,75,1) 40%, rgba(0,142,255,1) 100%)*/
+    /*-fx-background-image: url("@/../../images/bg/City_bg2.jpg");*/
     -fx-background-repeat: none;
     -fx-background-position: center center;
     -fx-background-size: cover;
